@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <title>My portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <meta name="description" content="la description de votre site ! PRIMORDIAL : mettre des bons mots clés!">
+    <meta name="keywords" content="webdesign , webdeveloppeur, developpeur font-end">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+</head>
+
+<body>
+   <div class="block">
+       <header class="header">
+        <a href="#" class="header-logo"> My portfolio</a>
+        <nav class="header-menu">
+          <a href="#" >Home</a>
+          <a href="#">About</a>
+          <a href="#"> my work</a>
+          <a href="#"> Contact</a>
+        </nav>
+       </header>
+   </div>
+   <div class="block">
+       <div class="banner">
+       <img src="src/img/image2.jpg" alt="Stars" class="banner-img">
+       <div class="banner-content">
+           <h1 class="title is-1">Welcome to my portfolio</h1>
+           <h2 class="subtitle">discover my works and my universe!</h2>
+           <button class="button is-link" id="open_modal">contact me</button>
+       </div>
+       </div>
+   </div>
+
+
+   <div class="modal oum-modal" id="modal_to_open">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Modal title</p>
+        <button class="delete" aria-label="close" id="close_modal"></button>
+      </header>
+      <section class="modal-card-body">
+        <p>my modal content</p>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-link">Save changes</button>
+      </footer>
+    </div>
+  </div>
+
+
+   <div class="block">
+       <div class="container about">
+            <div class="columns">
+                <div class="column about-single-element">
+                    <i class="fas fa-code icon"></i>
+                    <p>
+                        hi i'm kenza computer scientist beginner,web developer,animal lover and nature discoverer...
+                    </p>
+                </div>
+                
+                <div class="column about-single-element">
+                    <i class="fas fa-paw icon"></i>
+                    <p>A cat is a furry animal that has a long tail and sharp claws. Cats are often kept as pets Cats are lions, tigers, and other wild animals in the same family.
+                    </p>
+                </div>
+                     
+                <div class="column about-single-element">
+                    <i class="fas fa-globe icon"></i>
+                    <p> Switzerland is a mountainous country in central Europe with many lakes and villages, as well as the high peaks of the Alps.</p>
+                </div>
+            </div>
+       </div>
+
+   </div>
+   <div class="block">
+         <footer class="footer">
+             <h3 class="heading-site"> contact-me</h3>
+             <div class="footer-contact-form">
+                   <form>
+                    <div class="field">
+                        <label class="label">First Name</label>
+                        <div class="control">
+                          <input id="firstname" class="input" type="text" placeholder="e.g  Smith" name="firstname">
+                        </div>
+                      </div>
+                      
+                      <div class="field">
+                        <label class="label">Last Name</label>
+                        <div class="control">
+                          <input id="lastname" class="input" type="text" placeholder="e.g. Alex" name="lastname">
+                        </div>
+                      </div>
+                                    
+                      <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control">
+                         <input id="email" class="input" type="email" placeholder="e.g. alexsmith@gmail.com" name="email">
+                        </div>
+                      </div>
+                      <div class="field"> 
+                        <label class="label">Your Message</label>
+                        <div class="control">
+                          <textarea id="message" class="textarea" placeholder="Textarea" name="message"></textarea>
+                        </div>
+                      </div>
+                   </form>
+                   <button class="button is-link" id="send_email" >Envoyer !</button>
+                   
+             </div>
+             <div class="footer-informations">
+                 <p> 18 Street of  Web developer </p>
+                 <p>0600 Bejaia</p>
+                 <ul>
+                 <li>
+                     <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                     </a>
+                 </li>
+                 <li>
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+            </ul>
+             </div>
+         </footer>
+         
+
+   </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="src/js/main.js"></script>
+   
+</body>
+</html>
